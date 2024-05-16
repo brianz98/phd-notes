@@ -1,0 +1,65 @@
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with `a4paper' for UK/EU standard size
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+% Useful packages
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{url}
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+\usepackage{mathtools} %mathrel
+\usepackage{cleveref}% add hypertext capabilities
+%\usepackage[mathlines]{lineno}% Enable numbering of text and display math
+%\linenumbers\relax % Commence numbering lines
+\usepackage{lipsum}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{multirow}
+\usepackage{soul}
+\usepackage{simplewick}
+\usepackage{chemformula}
+\usepackage[ISO]{diffcoeff}
+\usepackage[parfill]{parskip}
+
+\newcommand{\ahat}{\hat{a}}
+\newcommand{\bvec}[1]{\bm{\mathrm{#1}}}
+\newcommand{\lgc}{^{\mathrm{L}}}
+\newcommand{\smc}{^{\mathrm{S}}}
+\newcommand{\plc}{^{\mathrm{P}}}
+\newcommand{\ttmat}[4]{\begin{bmatrix}{#1}&{#2}\\{#3}&{#4}\end{bmatrix}}
+\newcommand{\tvec}[2]{\begin{bmatrix}{#1}\\{#2}\end{bmatrix}}
+\newcommand{\bra}{\langle}
+\newcommand{\ket}{\rangle}
+\newcommand{\tp}{^{\text{T}}}
+\newcommand{\adj}{^{\dagger}}
+
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator{\Tr}{Tr}
+\DeclareMathOperator{\rank}{rank}
+\DeclareMathOperator{\range}{range}
+\DeclareMathOperator{\spann}{span}
+\DeclareMathOperator{\nulll}{null}
+\DeclareMathOperator{\sign}{sign}
+\DeclareMathOperator{\diag}{diag}
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+\newtheorem{example}{Example}
+\newtheorem{property}{Property}
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+
+\theoremstyle{remark}
+\newtheorem{remark}{Remark}
+
+
+
+\numberwithin{equation}{section}
